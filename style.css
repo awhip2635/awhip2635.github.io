@@ -1,0 +1,109 @@
+.big-name {
+    color: white;
+    font-family: 'Caesar Dressing', cursive;
+    text-align: center;
+}
+
+.top-black {
+    background-color: black;
+    height: 130px;
+    width: 100%;
+}
+
+.pic-skating {
+    width: 100%;
+    opacity: .4;
+   
+}
+
+.soapcolor {
+    background-image: url(https://ak2.picdn.net/shutterstock/videos/20188009/thumb/1.jpg?);
+    background-size: cover;
+}
+.bio {
+    color: white;
+    weight: bold;
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 75px;
+    text-align: center;
+    
+}
+.portfolio-row {
+   background-color: black;
+   height: 80px;
+   width: cover;
+}
+
+.portfolio-text {
+    color: white;
+    weight: bold;
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 45px;
+    text-align: center;
+}
+
+.port-pic {
+    width: 100%;
+    height:200px;
+}
+
+.pic-container {
+    flex-direction:column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    
+}
+
+.pic-complainer {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color:plum;
+}
+
+.active {
+background-color:plum;
+}
+.contact {
+    color: black;
+    font-family: 'Caesar Dressing', cursive;
+    text-align: center; 
+}
+.linked {
+    width: 100px;
+    length: 100px;
+}
+
+.git-hub {
+    width: 100px;
+    length: 100px;
+}
