@@ -194,11 +194,11 @@
 
 .projects {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg);
-    padding-top: 30px;
-    padding-bottom: 50px;
+    
+    
+    padding: 20px;
     border-style: solid;
     border-color: white;
-    border-width: 15px 30px 30px 30px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -234,10 +234,9 @@
 
 .contact {
     background-image: url(http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/3v/9b/p03v9b0v.jpg);
-    padding-top: 30px;
+    padding: 20px;
     border-style: solid;
     border-color: white;
-    border-width: 0px 30px 30px 30px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -304,249 +303,76 @@
     width: 24.5rem;
     height: 18rem;
     margin-top: 2vh;
-    margin-right: auto;
-    margin-left:auto;
+    
     border-style: solid;
     border-color: black;
     border-width: 4px;
+    margin-left: 10%;
+    
+}
+.chord-panel{
+    width: 24.5rem;
+    height: 7rem;
+    font-family: 'Cinzel', serif;
+    margin-left: 10%;
 }
 
 .kanban{
     width: 24.5rem;
     height: 18rem;
     margin-top: 2vh;
-    margin-right: auto;
-    margin-left:auto;
+    
     border-style: solid;
     border-color: black;
     border-width: 4px;
+    margin-left: 10%;
+}
+.kanban-panel{
+    font-family: 'Cinzel', serif;
+    width: 24.5rem;
+    margin-left: 10%;
 }
 .chatroom{
     margin-top: 2vh;
-    margin-right: auto;
-    margin-left:auto;
+    
     width: 24.5rem;
     height: 18rem;
     border-style: solid;
     border-color: black;
     border-width: 4px;
+    margin-left: 10%;
    
 }
-.porte2 {
-    width: 25.5rem;
-    height: 18.5rem;
-    background-color:black;
-    margin-left: auto;
-    margin-right: auto;
+.chatroom-panel{
+    font-family: 'Cinzel', serif;
+    width: 24.5rem;
+    margin-left: 10%;
+}
+.portfolio{
+    margin-right: -720px;
+}
+.music-app{
     margin-top: 2vh;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size:cover;
-    border-style: solid;
-    border-color: white;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px white;
-    max-width: 100%;
-}
-
-.porte3 {
-    width: 25.5rem;
-    height: 18.5rem;
-    background-color:black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size:cover;
-    border-style: solid;
-    border-color: white;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px white;
-    max-width: 100%;
-}
-
-.porte4 {
-    width: 25.5rem;
-    height: 18.5rem;
-    background-color:black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size:cover;
-    border-style: solid;
-    border-color: white;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px white;
-    max-width: 100%;
-}
-
-.porte5 {
-    width: 25.5rem;
-    height: 18.5rem;
-    background-color:black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size:cover;
-    border-style: solid;
-    border-color: white;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px white;
-    max-width: 100%;
-}
-
-.porte6 {
-    width: 25.5rem;
-    height: 18.5rem;
-    background-color:black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size:cover;
-    border-style: solid;
-    border-color: white;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px white;
-    max-width: 100%;
-}
-
-#por1 {
-    display: none;
-    opacity: 0;
-    animation: fade 1s infinite;
-
-    width: 25.5rem;
-	height: 17.5rem;
-	background: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size: 100%;
+    margin-left: 10%;
+    width: 24.5rem;
+    height: 18rem;
     border-style: solid;
     border-color: black;
     border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px black;
-    max-width: 100%;
+}
+.music-panel{
+    font-family: 'Cinzel', serif;
+    width: 24.5rem;
+    margin-left: 10%;
 }
 
-#por2 {
-    display: none;
-    opacity: 0;
-    animation: fade 1s infinite;
 
-    width: 25.5rem;
-	height: 17.5rem;
-	background: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px black;
-    max-width: 100%;
-}
 
-#por3 {
-    display: none;
-    opacity: 0;
-    animation: fade 1s infinite;
 
-    width: 25.5rem;
-	height: 17.5rem;
-	background: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px black;
-    max-width: 100%;
-}
 
-#por4 {
-    display: none;
-    opacity: 0;
-    animation: fade 1s infinite;
 
-    width: 25.5rem;
-	height: 17.5rem;
-	background: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px black;
-    max-width: 100%;
-}
 
-#por5 {
-    display: none;
-    opacity: 0;
-    animation: fade 1s infinite;
 
-    width: 25.5rem;
-	height: 17.5rem;
-	background: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px black;
-    max-width: 100%;
-}
-
-#por6 {
-    display: none;
-    opacity: 0;
-    animation: fade 1s infinite;
-
-    width: 25.5rem;
-	height: 17.5rem;
-	background: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px black;
-    max-width: 100%;
-}
 
 @keyframes fade {
   0% { opacity: 0 }
