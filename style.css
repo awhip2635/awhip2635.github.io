@@ -1,3 +1,32 @@
+
+.pic:hover .overlay {
+    opacity: 0.85;
+}
+.btn-default:hover {
+    color: #4C1580;
+}
+.overlay {
+    position: relative;
+    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 24.5rem;
+    height: 18rem;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: purple;
+}
+.text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
 .topper {
     background-image: url(http://miriadna.com/desctopwalls/images/max/Radiant-sunrise.jpg);
     height: 100vh;
