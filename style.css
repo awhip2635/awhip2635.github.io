@@ -1,8 +1,14 @@
-
+.top{ 
+    background-color: #A5C99C;
+}
+.button-row{
+    background-color: #A5C99C;  
+    padding-bottom: 10px;
+}
 .pic:hover .overlay {
     opacity: 0.85;
 }
-.btn-default:hover {
+.btn:hover {
     color: #4C1580;
 }
 .overlay {
@@ -10,13 +16,13 @@
     
     top: 0;
     bottom: 0;
-    left: 0;
+    left: 5%;
     right: 0;
     width: 24.5rem;
     height: 18rem;
     opacity: 0;
     transition: .5s ease;
-    background-color: purple;
+    background-color: #A5C99C;
 }
 .text {
     color: white;
