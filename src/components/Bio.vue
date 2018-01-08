@@ -1,23 +1,28 @@
 <template>
     <div class="container-fluid">
-        <div class="row row-eq-height">
-            <h1>About Me</h1>
-            <div class="col-xs-12 col-sm-12 col-md-2">
+        <div>
+            <h1 class="about">About Me</h1>
 
-                <img class="profileshot" src="Uhh professional.jpg" alt="">
 
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <p class="h3font">Hi, I'm Alex! I am a full-stack web developer, who is eager to learn and expand my skillset. I strive to
-                    create innovative, and well-designed projects that are both visually and functionally appealing to the
-                    client and user alike. In my freetime, I enjoy playing music.
-                </p>
-            </div>
+            <img class="profile-shot" src="https://avatars0.githubusercontent.com/u/27745472?s=460&v=4" alt="">
+
+            <center>
+
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="panel">
+
+                        <p class="bio-text">Hi, I'm Alex! I am a full-stack web developer, who is eager to learn and expand my skillset. I strive to
+                            create innovative, and well-designed projects that are both visually and functionally appealing to the
+                            client and user alike. In my freetime, I enjoy playing music.
+                        </p>
+                    </div>
+                </div>
+            </center>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
 
             <div id="langs">
-                <h4>SKILLS</h4>
+                <h4 class="about">SKILLS</h4>
                 <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="html5" height="55px" width="55px">
                 <img src="http://www.blackbirdsolutions.com.au/sites/default/files/styles/medium/public/blog/css3-logo.png?itok=r8kt8WZA"
                     alt="css" height="55px" width="55px">
@@ -48,22 +53,20 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    h1,
-    h2 {
-        font-weight: normal;
+    .about {
+        color: white;
     }
-
-    ul {
-        list-style-type: none;
-        padding: 0;
+    .panel {
+        margin-top: 10px;
+        background-color: rgba(12, 18, 37, 0.55);
+        width: 80%;
     }
-
-    li {
-        display: inline-block;
-        margin: 0 10px;
+    .bio-text{
+        color: white;
+        font-size: 16px;
     }
-
-    a {
-        color: #42b983;
+    .profile-shot {
+        height: 30vh;
+        width: 30vh;
     }
 </style>

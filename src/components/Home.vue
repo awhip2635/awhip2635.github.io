@@ -1,10 +1,10 @@
 <template>
 <div class="container-fluid">
-  <div>
+  <div class="title">
     <h1>Alex Whipple</h1>
     <h2>Full Stack Web Developer</h2>
   </div>
-  <div>
+  <div class="options">
       <router-link :to="{name: 'Bio'}">
     <h2>Bio</h2>
     </router-link>
@@ -15,6 +15,7 @@
     <h2>Contact</h2>
     </router-link>
   </div>
+
 </div>
 
 </template>
@@ -32,18 +33,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
+.title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 90px;
+  color: white;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+
+.options {
+  margin-top: 90px;
+  
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+h2 {
+  color: white;
 }
 </style>
