@@ -4,20 +4,31 @@
             <h1 class="about">About Me</h1>
 
 
-            <img class="profile-shot" src="https://avatars0.githubusercontent.com/u/27745472?s=460&v=4" alt="">
 
-            <center>
 
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="panel">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 
-                        <p class="bio-text">Hi, I'm Alex! I am a full-stack web developer, who is eager to learn and expand my skillset. I strive to
-                            create innovative, and well-designed projects that are both visually and functionally appealing to the
-                            client and user alike. In my freetime, I enjoy playing music.
-                        </p>
-                    </div>
+                    <img class="profile-shot" src="https://avatars0.githubusercontent.com/u/27745472?s=460&v=4" alt="">
                 </div>
-            </center>
+
+
+                <center>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="panel">
+                            <p class="bio-text">Hi, I'm Alex! I am a full-stack web developer, who is eager to learn and expand my skillset.
+                                I strive to create innovative, and well-designed projects that are both visually and functionally
+                                appealing to the client and user alike. In my freetime, I enjoy playing music.
+                            </p>
+
+                        </div>
+                    </div>
+                </center>
+                <div class="col-sm-4 col-md-4">
+
+                </div>
+            </div>
+
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
 
@@ -55,18 +66,25 @@
 <style scoped>
     .about {
         color: white;
+        font-size: 20px;
     }
+
     .panel {
         margin-top: 10px;
         background-color: rgba(12, 18, 37, 0.55);
         width: 80%;
     }
-    .bio-text{
+
+    .bio-text {
         color: white;
-        font-size: 16px;
+        font-size: 20px;
+        margin-top: 15px;
     }
+
     .profile-shot {
-        height: 30vh;
-        width: 30vh;
+        width: 60%;
+        height: 60%;
+        border-style: solid;
+        border-width: 10px;
     }
 </style>
