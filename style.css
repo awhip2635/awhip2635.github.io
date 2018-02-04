@@ -35,11 +35,12 @@
     .pic {
         height: 200px;
         width: 300px;
+        border: 2px border-style black;
     }
     .profileshot {
         margin-top: 10px;
-        height: 70%;
-        width: 70%;
+        height: 80%;
+        width: 80%;
         margin-bottom: 20px;
     }
     #langs {
@@ -59,7 +60,18 @@
 .all {
     background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/05/brick-wallpaper-15.jpg");
     background-size: 100vh;
+    background-repeat: no-repeat;
+   
 }
 .skills-panel {
     background: tan;
+}
+.bottom {
+    margin-top: 20px;
+}
+.bio {
+    background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/05/brick-wallpaper-15.jpg");
+}
+.portfolio {
+    background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/05/brick-wallpaper-15.jpg");
 }
