@@ -1,5 +1,7 @@
 .top{ 
-        background-color: whitesmoke;
+        background-color: #0FA0C4;
+        opacity: .75
+        
     }
     .button-row{
         background-color: #A5C99C;  
@@ -43,7 +45,7 @@
         height: 40%;
         width: 40%;
         margin-bottom: 20px;
-        border-radius: 30px;
+        border: 2px solid gray;
     }
     #langs {
         background-color: whitesmoke;
@@ -85,14 +87,18 @@
 .por{
     width:300px;
 }
-.icons{
+.icon-pic{
     width: 60px;
     height: 60px;
+}
+.icons:hover{
+    background-color: gold;
 }
 .codeworks {
     width: 70px;
 }
 .panel {
     background-color: gray;
+    border: 4px solid #0FA0C4;
     
 }
