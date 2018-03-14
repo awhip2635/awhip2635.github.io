@@ -1,6 +1,6 @@
 .top{ 
-        background-color: #0FA0C4;
-        opacity: .75
+        background-color: rgba(15, 160, 196, 0.521);
+        
         
     }
     .button-row{
@@ -92,7 +92,9 @@
     height: 60px;
 }
 .icons:hover{
-    background-color: gold;
+    background-color: rgba(15, 160, 196, 0.342);
+    
+    
 }
 .codeworks {
     width: 70px;
